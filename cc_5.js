@@ -39,5 +39,13 @@ console.log(cartItems);
 
 //Declaring an array of prices
 let prices = [100, 200, 300];
-//Using the map method to add a 10% discount to each price and ogging the discounted prices to the console
+//Using the map method to add a 10% discount to each price and logging the discounted prices to the console
 console.log(prices.map((price) => price - (price * .1)));
+
+// Task 5: Filter Method 
+
+//Declaring an array displaying five product quantities
+let inventory = [15, 20, 25, 0, 350];
+//Using the filter method to remove products with zero stock and logging the filtered array to the console
+console.log(inventory.filter((stock) => stock > 0));
+ 
