@@ -73,3 +73,13 @@ console.log(findCustomer);
     {return amount * taxRate};
 //Logging the tax amount to the console
 console.log(`Tax: $${calculateTax(500, .17)}`);
+
+// Task 9: Function Expression 
+
+//Declaring a function expression applyDiscount
+function applyDiscount (price, discount) {
+    //Return the discounted price
+    return price - (price * discount);
+};
+//Logging the discounted price to the console
+console.log(`Discounted Price: $${applyDiscount(500, 0.1)}`);
