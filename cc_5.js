@@ -64,3 +64,12 @@ let customers = ["Alice", "Bob", "Charlie", "David"];
 let findCustomer = customers.find(customer => customer === "Charlie");
 //Logging the customer to the console
 console.log(findCustomer);
+
+// Task 8:// Function Declaration
+
+//Write a function calculateTax(amount, taxRate) that calculates the sales tax
+    function calculateTax(amount, taxRate)
+    //Return the calculated tax and log it using a template literal
+    {return amount * taxRate};
+//Logging the tax amount to the console
+console.log(`Tax: $${calculateTax(500, .17)}`);
