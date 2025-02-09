@@ -19,3 +19,18 @@ displayOrder() {
 }
 };
 order.displayOrder();
+
+//Task 3: Array Manipulation (Push, Pop, Shift, Unshift)
+
+//Declaing an array cartItems with three product names
+let cartItems = ["Ergo Desk", "Ergo Chair", "Ergo Keyboard"];
+//Adding a new product to the cart using push method
+cartItems.push("49in Ultra Wide Curved Monitor");
+//Removing the last item using the pop method
+cartItems.pop();
+//Adding a new item to the beginning using the unshift method
+cartItems.unshift(" Ergo Mouse");
+//Removing the first item using the shift method
+cartItems.shift();
+//Logged the final array to the console
+console.log(cartItems);
