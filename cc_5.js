@@ -22,8 +22,8 @@ order.displayOrder();
 
 //Task 3: Array Manipulation (Push, Pop, Shift, Unshift)
 
-//Declaing an array cartItems with three product names
-let cartItems = ["Ergo Desk", "Ergo Chair", "Ergo Keyboard"];
+//Declaring an array cartItems with three product names
+let cartItems = ["Cart: Ergo Desk", "Ergo Chair", "Ergo Keyboard"];
 //Adding a new product to the cart using push method
 cartItems.push("49in Ultra Wide Curved Monitor");
 //Removing the last item using the pop method
@@ -49,3 +49,10 @@ let inventory = [15, 20, 25, 0, 350];
 //Using the filter method to remove products with zero stock and logging the filtered array to the console
 console.log(inventory.filter((stock) => stock > 0));
  
+//Task 6: Reduce Method
+
+//Declare an array sales = [500, 300, 200, 400]
+let sales = [500, 300, 200, 400];
+//Using the reduce method to calculate the total sales and logging the total revenue to the console
+console.log(sales.reduce((totalRevenue, sale) => totalRevenue + sale));
+
