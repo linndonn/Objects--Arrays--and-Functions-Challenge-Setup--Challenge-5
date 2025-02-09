@@ -83,3 +83,11 @@ function applyDiscount (price, discount) {
 };
 //Logging the discounted price to the console
 console.log(`Discounted Price: $${applyDiscount(500, 0.1)}`);
+
+// Task 10: Arrow Function
+
+// Write an arrow function to calculate the loyalty points
+const calculatePoints = (TotalPurchase) => TotalPurchase / 10;
+
+//  Logging the reward points to the console
+console.log(`You've earned ${calculatePoints(100)} reward points.`); 
