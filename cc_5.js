@@ -34,3 +34,10 @@ cartItems.unshift(" Ergo Mouse");
 cartItems.shift();
 //Logged the final array to the console
 console.log(cartItems);
+
+//Task 4: Map Method
+
+//Declaring an array of prices
+let prices = [100, 200, 300];
+//Using the map method to add a 10% discount to each price and ogging the discounted prices to the console
+console.log(prices.map((price) => price - (price * .1)));
